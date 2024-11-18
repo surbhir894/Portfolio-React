@@ -1,4 +1,27 @@
+import React from "react"
+//port
+import port1 from '../../assets/images/port/port1.jpg';
+import port2 from '../../assets/images/port/port2.jpg';
+import port3 from '../../assets/images/port/port3.jpg';
+import port4 from '../../assets/images/port/port4.jpg';
+import port5 from '../../assets/images/port/port5.jpg';
+import port6 from '../../assets/images/port/port6.jpg';
+
+// team 
+import team1 from '../../assets/images/testimonials/team-1.png';
+import team2 from '../../assets/images/testimonials/team-2.png';
+import team3 from '../../assets/images/testimonials/team-3.png';
+
+//blog
+import blog1 from '../../assets/images/blog/b1.png'
+import blog2 from '../../assets/images/blog/b2.png'
+import blog3 from '../../assets/images/blog/b3.png'
+
+//girl-image
+import girl from '../../assets/images/girl2.png'
+
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+
 
 export const navlink = [
   {
@@ -43,7 +66,8 @@ export const about = [
   {
     desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
     desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    cover: "./images/girl2.png",
+    //cover: "./images/girl2.png",
+    cover:girl,
   },
 ]
 export const services = [
@@ -113,42 +137,43 @@ export const project = [
 export const portfolio = [
   {
     id: 1,
-    cover: "../images/port/port1.jpg",
+    //cover:"../images/port/port1.jpg",
+    cover:port1,
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
   },
   {
     id: 2,
-    cover: "../images/port/port2.jpg",
+    cover:port2,
     name: "Brand",
     category: "design",
     title: "Brex Logo",
   },
   {
     id: 3,
-    cover: "../images/port/port3.jpg",
+    cover:port3,
     name: "Brand",
     category: "development",
     title: "Brex Logo",
   },
   {
     id: 4,
-    cover: "../images/port/port4.jpg",
+    cover:port4,
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
   },
   {
     id: 5,
-    cover: "../images/port/port5.jpg",
+    cover:port5,
     name: "Brand",
     category: "design",
     title: "Brex Logo",
   },
   {
     id: 6,
-    cover: "../images/port/port6.jpg",
+    cover:port6,
     name: "Brand",
     category: "development",
     title: "Brex Logo",
@@ -158,21 +183,22 @@ export const testimonials = [
   {
     id: 1,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-1.png",
+    //image: "./images/testimonials/team-1.png",
+    cover:team1,  
     name: "Alamin Musa",
     post: "Front End Developer",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-2.png",
+    cover:team2,
     name: "Alex Ander",
     post: "Back End Developer",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-3.png",
+    cover:team3,
     name: "GorkCoder",
     post: "React Developer",
   },
@@ -184,7 +210,8 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b1.png",
+    // cover: "./images/blog/b1.png",
+    cover:blog1,
   },
   {
     id: 2,
@@ -192,7 +219,7 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b2.png",
+    cover:blog2,
   },
   {
     id: 3,
@@ -200,7 +227,7 @@ export const blog = [
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
-    cover: "./images/blog/b3.png",
+    cover:blog3,
   },
 ]
 export const contact = [
