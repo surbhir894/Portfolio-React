@@ -112,13 +112,13 @@ export const project = [
   {
     id: 1,
     icon: <CloudOutlined />,
-    num: "89",
+    num: "0",
     title: "HAPPY CLIENTS",
   },
   {
     id: 2,
     icon: <FavoriteBorder />,
-    num: "231",
+    num: "29",
     title: "PROJECTS COMPLEATED",
   },
   {
@@ -185,21 +185,21 @@ export const testimonials = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     //image: "./images/testimonials/team-1.png",
     cover:team1,  
-    name: "Alamin Musa",
+    name: "Amir Khan",
     post: "Front End Developer",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     cover:team2,
-    name: "Alex Ander",
+    name: "Kartik Aaryan",
     post: "Back End Developer",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     cover:team3,
-    name: "GorkCoder",
+    name: "katrina Kaif",
     post: "React Developer",
   },
 ]
